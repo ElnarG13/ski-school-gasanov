@@ -52,11 +52,11 @@ body {
     background-position: center;
 }
 .about-fade{
-     background-color: rgba(6, 13, 16, 0.25)
+     background-color: rgba(6, 13, 16, .25)
 }
 .about-title {
     color: #fff;
-    font-family: 'Oswald' , sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 60px;
     line-height: 89px;
     text-transform: uppercase;
@@ -71,7 +71,7 @@ body {
   /* advantages */
 .advantages {
     color: #060D10;
-    background-color: rgb(102, 209, 255, 0.25);
+    background-color: rgb(102, 209, 255, .25);
 }
 .advantages-title {
     font-family: 'Oswald' , sans-serif;
@@ -98,3 +98,7 @@ body {
     text-transform: uppercase;
 }
   /* footer */
+  .footer{
+      color: #fff;
+      background-color: #060D10;
+  }
