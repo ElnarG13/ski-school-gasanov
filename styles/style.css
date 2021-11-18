@@ -30,6 +30,11 @@
 body {
     font-family: 'Montserrat' , sans-serif;
 }
+.container{
+    width: 1278px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
   /* header */
 .header {
     color:#060D10;
@@ -41,10 +46,16 @@ body {
 }
   /* about */
 .about {
-    color: #fff;
-    background-color: dimgray;
+    background-image: url(../images/bg-ski.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about-fade{
+     background-color: rgba(6, 13, 16, 0.25)
 }
 .about-title {
+    color: #fff;
     font-family: 'Oswald' , sans-serif;
     font-size: 60px;
     line-height: 89px;
@@ -52,6 +63,7 @@ body {
     text-shadow: 1px 1px 2px #060D10;
 }
 .about-text {
+    color: #fff;
     font-size: 32px;
     line-height: 39px;
     text-shadow: 1px 1px 2px #060D10;
@@ -59,6 +71,7 @@ body {
   /* advantages */
 .advantages {
     color: #060D10;
+    background-color: rgb(102, 209, 255, 0.25);
 }
 .advantages-title {
     font-family: 'Oswald' , sans-serif;
