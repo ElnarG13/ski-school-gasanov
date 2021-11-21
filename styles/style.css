@@ -7,6 +7,7 @@
          url('../fonts/montserrat-v18-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/montserrat-v18-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+
   /* montserrat-500 - latin_cyrillic */
   @font-face {
     font-family: 'Montserrat';
@@ -16,34 +17,65 @@
          url('../fonts/montserrat-v18-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/montserrat-v18-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  /* oswald-500 - latin */
+
+  /* oswald-500 - latin_cyrillic */
 @font-face {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     src: local(''),
-         url('../fonts/oswald-v40-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/oswald-v40-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/oswald-v40-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/oswald-v40-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
   /* common */
 body {
     font-family: 'Montserrat' , sans-serif;
 }
-.container{
+
+.container {
     width: 1278px;
     margin: 0 auto;
     border: 1px solid red;
 }
+
   /* header */
 .header {
+    padding: 31px 0;
     color:#060D10;
     background-color: #66D1FF;
 }
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav li {
+
+}
+
 .main-nav a {
     text-decoration: none;
     color: inherit;
 }
+
+.main-start {
+  padding: 8px 41px;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+}
+
   /* about */
 .about {
     background-image: url(../images/bg-ski.png);
@@ -51,9 +83,13 @@ body {
     background-size: cover;
     background-position: center;
 }
-.about-fade{
-     background-color: rgba(6, 13, 16, .25)
+
+.about-fade {
+    padding-top: 240px;
+    padding-bottom: 260px;
+    background-color: rgba(6, 13, 16, .25);
 }
+
 .about-title {
     color: #fff;
     font-family: 'Oswald', sans-serif;
@@ -62,43 +98,58 @@ body {
     text-transform: uppercase;
     text-shadow: 1px 1px 2px #060D10;
 }
+
 .about-text {
     color: #fff;
     font-size: 32px;
     line-height: 39px;
     text-shadow: 1px 1px 2px #060D10;
 }
+
   /* advantages */
 .advantages {
+    padding: 170px 0;
     color: #060D10;
     background-color: rgb(102, 209, 255, .25);
 }
+
 .advantages-title {
     font-family: 'Oswald' , sans-serif;
     font-size: 48px;
     line-height: 167%;
     text-transform: uppercase;
 }
+
 .advantages-heading {
     font-family: 'Oswald' , sans-serif;
     font-size: 32px;
     line-height: 167%;
     text-transform: uppercase;
 }
+
 .advantages-text {
     font-size: 26px;
     line-height: 140%;
     opacity: 0.8;
 }
+
   /* offer */
+
+  .offer {
+padding-top: 170px;
+padding-bottom: 180px;
+  }
+
 .offer-title {
-    font-family: 'Oswald' , sans-serif; 
+    font-family: 'Oswald' , sans-serif;
     font-size: 48px;
     line-height: 167%;
     text-transform: uppercase;
 }
+
   /* footer */
-  .footer{
+  .footer {
+      padding: 35px 0;
       color: #fff;
       background-color: #060D10;
   }
