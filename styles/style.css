@@ -197,3 +197,47 @@ body {
       color: #fff;
       background-color: #060D10;
   }
+
+  .footer-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-text {
+    font-size: 20px;
+    line-height: 167%;
+    margin: 0;
+    margin-right: 30px;
+  }
+
+  .footer-copyright {
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: auto;
+  }
+
+  /* social */
+  .social {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .social-link {
+    margin-left: 20px;
+  }
+
+  .social-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .social-text {
+    opacity: 0;
+    font-size: 1px;
+  }
